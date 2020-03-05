@@ -44,7 +44,11 @@
   margin: 15px 15px 27px;
   padding: 12px 0 15px;
   border: 3px solid #f3f3f3;
-  border-radius: 5px; }
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s; }
   .product-card__img:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
