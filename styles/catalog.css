@@ -51,7 +51,8 @@
   transition: transform 1s, -webkit-transform 1s; }
   .product-card__img:hover {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
+            transform: scale(1.2);
+    cursor: pointer; }
 
 .product-card__info {
   width: 170px; }
