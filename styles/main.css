@@ -107,7 +107,7 @@
   height: 134px;
   margin: 15px 15px 27px;
   padding: 12px 0 15px;
-  border: 3px solid #f3f3f3;
+  border: 3px solid transparent;
   border-radius: 5px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
@@ -116,6 +116,8 @@
   .product-card__img:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
+    border: 3px solid #f3f3f3;
+    border-radius: 5px;
     cursor: pointer; }
 
 .product-card__info {
