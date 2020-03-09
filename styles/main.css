@@ -1,7 +1,6 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -20,9 +19,8 @@
   margin: 10px 0; }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -63,12 +61,9 @@
   border-radius: 8px; }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 50px 48px;
   max-width: calc(200px * 4 + 48px * 3);
   margin: 50px auto; }
 
