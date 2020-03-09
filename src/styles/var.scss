@@ -7,3 +7,9 @@ $main-font-color: #000;
   display: flex;
   justify-content: space-between;
 }
+
+@mixin grid-four-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 50px 48px;
+}
